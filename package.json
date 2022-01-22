@@ -1,0 +1,16 @@
+{
+  "name": "zillowAlmostExpired",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "debug": "env DEBUG=\"puppeteer:*\" env DEBUG_COLORS=true node script.js 2>&1 | grep -v '\"Network'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "puppeteer": "^13.1.1"
+  }
+}
